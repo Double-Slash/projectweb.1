@@ -1,0 +1,33 @@
+div {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  
+  img {
+      width: 40%;
+      float: left;
+      margin-bottom: 5%;
+  }
+  
+  ol{
+      float: left;
+  }
+
+  #content2 {
+      clear: both;
+  }
+  
+  video{
+      height: 30%;
+      width: 70%;
+  }
+  
+  .title{
+      background-color: cornflowerblue;
+  }
+  
+  .content{
+      background-color: greenyellow;
+  }
+  
