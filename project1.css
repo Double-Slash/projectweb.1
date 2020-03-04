@@ -1,0 +1,55 @@
+.wrap {
+  background-color: rgb(235, 235, 235);
+  padding: 1%;
+}
+#title {
+  background-color: lightseagreen;
+  margin: 3% 10%;
+  padding: 1%;
+  text-align: center;
+  border: 1px solid black;
+}
+.content {
+  margin: 3% 10%;
+  overflow: auto;
+  background-color: white;
+}
+#content1 {
+  background-color: palevioletred;
+  padding: 1%;
+  border: 1px solid black;
+}
+#content2 {
+  background-color: greenyellow;
+  padding: 1%;
+  border: 1px solid black;
+}
+#content3 {
+  background-color: goldenrod;
+  padding: 1%;
+  border: 1px solid black;
+}
+video {
+  padding: 3%;
+  width: 400px;
+  height: 200px;
+}
+
+img {
+  width: 400px;
+  height: 200px;
+  float: left;
+  clear: both;
+  padding: 3%;
+}
+
+#list {
+  margin-top: 3%;
+  margin-right: 10%;
+  margin-bottom: 3%;
+  margin-left: 50%;
+}
+
+#detail {
+  padding: 1%;
+}
