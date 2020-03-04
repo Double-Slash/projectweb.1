@@ -1,0 +1,39 @@
+body {
+    background-color: #4f5785!important;
+    color: white!important;
+}
+
+.title {
+    margin: 4em 1em;
+    text-align: center;
+    border-style: solid;
+}
+
+.button {
+    margin: 4em 1em;
+    text-align: center;
+}
+
+.contents {
+    margin: 2em;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    top: 50%;
+}
+
+.list {
+    width: 300px;
+    height: 300px;
+    top: 50%;
+}
+
+.hide {
+    display: none;
+}
