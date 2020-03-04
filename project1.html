@@ -2,12 +2,64 @@
 <html lang ="kor">
  <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>김민정의 자기소개 페이지</title>
   <!-- html 주석 -->
   <link rel = "stylesheet" href ="project1.css"/>
  </head>
  <body>
      <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
      <script src="project1.js" type="text/javascript"></script>
- </body>
+     <script>// 
+          $(function(){
+          alert('김민정의 자기소개 웹페이지에 온것을 환영합니다!');
+      });  
+     </script> 
+    <div id='my_title'>
+        <h1>김민정의 자기소개웹페이지</h1>
+    </div>
+        <ul>사진과 간단한 설명</ul>   
+    
+         <img id = 'photo' src = 'C:\Users\user\Desktop\kim.jpg'>
+    <div id="box">   
+         <ol>
+            <li>안녕하세요! 저는 더블슬래시 4기 개발팀에 들어온 김민정이라고 합니다.</li>
+            <li>구피 6마리와 시피루스를 기르고 있습니다.</li> 
+            <li>좋아하는 것은 소설책읽기 입니다.</li>
+            <li>드라마를 본게 계기가 되어 중국어를 공부하고 있습니다.</li>
+            <li>다루어본 프레임워크는 vue가 처음입니다.</li>
+            <li>다른 프레임워크도 다루어보고 싶습니다.</li>
+            <li>재미있는 걸 많이 만들어보고싶습니다.</li>
+        </ol>
+    </div>  
+    <ul>관련동영상</ul>
+    <div id="video">
+        <video width="640" height="200" controls autoplay>
+            <source src="C:\Users\user\Desktop\kim.mp4" type="video/mp4">
+        </video>  
+    </div>
+    <ul>
+    <button id = "button" onclick = "openJqueryDetail()">요약</button>  
+    </ul>
+    <p id="mj" align = "center">   
+            <!--안녕하세요! 저는 더블슬래시 4기 개발팀에 들어온 김민정이라고 합니다. <br>
+            구피 6마리와 시피루스를 기르고 있습니다. <br>
+            좋아하는 것은 소설책읽기 입니다.<br>
+            드라마를 본게 계기가 되어 중국어를 공부하고 있습니다.<br>
+            다루어본 프레임워크는 vue가 처음입니다.<br>
+            다른 프레임워크도 다루어보고 싶습니다.<br>
+            재미있는 걸 많이 만들어보고싶습니다.-->
+    </p> 
+<!--ajax로 글,그림,동영상 받아오기-->
+    <div id = "ajax">
+        <div id = "photo">
+            <button id = "photo" onclick = "getPhotoGET()">사진</button>
+        </div>
+        <div id = "mj">
+            <button id = "mj" onclick = "getMjGET()">설명문</button>
+        </div>
+        <div id = "video">
+            <button id = "video" onclick = "getVideoGET()">비디오</button>
+        </div>
+     </div>   
+</body>
 </html>
