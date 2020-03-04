@@ -1,28 +1,37 @@
+/* content별 마진을 일정하게 지정 */
 div {
     margin-top: 5%;
     margin-right: 5%;
     margin-left: 5%;
   }
   
+/* 사진 크기와 자리 위치 설정 */
   img {
       width: 40%;
       float: left;
       margin-bottom: 5%;
   }
-  
+
+/* 사진 옆에 작성하기 위해 위치 설정   */
   ol{
       float: left;
   }
-
+/* 사진과 글 설정에 주었던 위치선정을 없애고 새로운 영역에 설정 */
   #content2 {
       clear: both;
   }
-  
+/* 영상 화면 크기 설정 */
   video{
       height: 30%;
       width: 70%;
   }
   
+
+  /* 배경색  */
+  .container{
+      background-color: beige;
+  }
+
   .title{
       background-color: cornflowerblue;
   }
