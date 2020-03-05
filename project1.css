@@ -14,8 +14,14 @@ body {
   color: #f2f6fa;
 }
 
-.contents {
+#Contents {
   margin : 2% 3%;
+  height: 150px;
+}
+
+#Contents > ol {
+  position: relative;
+  right: 45%;
 }
 
 #Image {
@@ -28,4 +34,9 @@ body {
 
 #Btn {
   margin : 2% 3%;
+}
+
+#Detail {
+  margin : 1% 3%;
+  margin-top: 0px;
 }
