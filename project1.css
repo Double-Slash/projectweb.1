@@ -1,0 +1,42 @@
+body {
+  background-color: #feba02;
+}
+
+#Title {
+  margin : 2% 3%;
+  background-color: #003580;
+  color: #f2f6fa;
+}
+
+.index {
+  margin : 2% 3%;
+  background-color: #009fe3;
+  color: #f2f6fa;
+}
+
+#Contents {
+  margin : 2% 3%;
+  height: 150px;
+}
+
+#Contents > ol {
+  position: relative;
+  right: 45%;
+}
+
+#Image {
+  float: left;
+}
+
+#Oltxt {
+  float: right;
+}
+
+#Btn {
+  margin : 2% 3%;
+}
+
+#Detail {
+  margin : 1% 3%;
+  margin-top: 0px;
+}
