@@ -1,0 +1,21 @@
+body{
+	background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 10%;
+}
+
+iframe, button, p {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+section h3, .title{
+	color: white;
+}
+
+.imgList {
+	display:flex;
+	margin-left: 5%;
+	margin-right: 5%;
+}

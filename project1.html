@@ -2,12 +2,40 @@
 <html lang ="kor">
  <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>myProfile</title>
   <!-- html 주석 -->
   <link rel = "stylesheet" href ="project1.css"/>
  </head>
  <body>
-     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
      <script src="project1.js" type="text/javascript"></script>
+     <div>
+		<header>
+			<div class="title">
+				<h1 id ="test">My Profile</h1>
+			</div>
+		</header>
+		<main>
+			<section id="section1">	
+				<h3>목차1</h3>
+				<div class="imgList">
+					<img class="imgList_item" width="50%" height="30%" src ="./handsome.jpg" alt />
+					<ol class="imgList_item">
+						<li>이번에 더블슬래쉬 가입한 김수진입니다.</li>
+						<li>실력은 부족하지만 잘부탁드립니다!</li>
+					</ol>
+				</div>
+			</section>
+			<section id="section2">	
+				<h3>목차2</h3>
+				<iframe width="90%" height="720px" src="https://www.youtube.com/embed/mk4PxqNvA6g" frameborder="0" allow="accelerometer;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen="">
+				</iframe>
+			</section>
+			<section id="section3">	
+				<h3>목차(마지막)</h3>
+				<button onClick="showText()">더보기</button>
+				<p id="more"> </p>
+			</section>
+  		</main>
+  	</div>
  </body>
 </html>
