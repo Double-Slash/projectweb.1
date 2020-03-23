@@ -1,13 +1,48 @@
 <!DOCTYPE html>
-<html lang ="kor">
- <head>
-  <meta charset="UTF-8">
-  <title></title>
-  <!-- html 주석 -->
-  <link rel = "stylesheet" href ="project1.css"/>
- </head>
- <body>
-     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
-     <script src="project1.js" type="text/javascript"></script>
- </body>
+<html lang="kor">
+  <head>
+    <meta charset="UTF-8" />
+    <title>introduce</title>
+    <!-- html 주석 -->
+    <link rel="stylesheet" href="project1.css" />
+  </head>
+  <body>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="project1.js" type="text/javascript"></script>
+    <div class="wrap">
+      <div id="title"><h2>저를 소개합니다</h2></div>
+      <div class="content">
+        <div id="content1">사진</div>
+        <img id="image" src="C:\doubleslash\image.jpg" alt="이미지" />
+        <div id="list">
+          <ol>
+            <li>이름: 박정우</li>
+            <li>성별: 여자</li>
+            <li>나이: 25</li>
+            <li>거주지: 분당</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="content">
+        <div id="content2">
+          동영상
+        </div>
+
+        <video id="video" controls>
+          <source
+            src="C:\doubleslash\video.mp4"
+            type="video/mp4"
+            alt="비디오"
+          />
+        </video>
+      </div>
+      <div class="content">
+        <div id="content3">설명</div>
+
+        <button onClick="openDetail()">detail</button>
+        <div id="detail"></div>
+      </div>
+    </div>
+  </body>
 </html>
