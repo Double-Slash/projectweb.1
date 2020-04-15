@@ -1,0 +1,70 @@
+.main {
+  padding: 75px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2vw;
+  font-size: 1.5rem;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+.nav {
+  padding: 2vw;
+  border: 1px black solid;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+
+.section_lists-image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.image,
+.video {
+  width: 30vw;
+  height: 20vw;
+  margin: 0 2vw 2vw 0;
+  background: yellow;
+}
+
+.section_lists-image_list {
+  margin-bottom: 2vw;
+}
+
+.introduce {
+  position: fixed;
+  display: none;
+  width: 30vw;
+  height: 30vw;
+  background: gray;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+}
+
+.block {
+  display: block;
+  padding: 2vw;
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 2vw;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+.button {
+  justify-self: right;
+}
